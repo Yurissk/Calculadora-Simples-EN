@@ -55,13 +55,12 @@ int main(){
         printf("Invalid option!\n");
             break;
         }
-
-
-    // Continuar rodando? (s/n):
+        
     printf("\nKeep running? (y/n): \n"); 
     scanf(" %c", &continueProg);
 
 } while (continueProg == 'y' || continueProg == 'Y');
 
     return 0;
+
 }
